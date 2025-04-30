@@ -1,3 +1,4 @@
 .DS_Store
 algo_comparison/regression_comparison_1/nyc_ytaxi_ride.parquet
 algo_comparison/regression_comparison_1/models
+algo_comparison/classification_comparison_1/datasets
