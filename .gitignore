@@ -1,5 +1,7 @@
 .DS_Store
-algo_comparison/regression_comparison_1/nyc_ytaxi_ride.parquet
-algo_comparison/regression_comparison_1/models
+algo_comparison/regression_comparison_basic/datasets
+algo_comparison/regression_comparison_basic/models
+algo_comparison/regression_comparison_trees/datasets
+algo_comparison/regression_comparison_trees/models
 algo_comparison/classification_comparison_1/datasets
 algo_comparison/classification_comparison_1/models
