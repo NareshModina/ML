@@ -1,4 +1,4 @@
-## Machine Learning Algorithm Demos
+# Machine Learning Algorithm Demos
 
 This repository contains Python demonstrations of various machine learning algorithms. Below are the dependencies required to run the code.
 
@@ -13,7 +13,7 @@ This repository contains Python demonstrations of various machine learning algor
 - matplotlib: **3.9.2**
 - pandas: **2.2.3**
 
-## Installation
+## Local execution
 
 You can install the dependencies using either a Python virtual environment or Anaconda.
 
