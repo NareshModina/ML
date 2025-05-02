@@ -98,7 +98,7 @@ Enjoy experimenting with machine learning algorithms!
 Three datasets namely Fish dataset, insurance dataset, and nycyellowtaxiride dataset are used for the comparison
 -  Directory --> algo_comparison/regression_comparison_basic contains interactive python notebooks (ipynb) with the comparison of Linear regression, polynomial regression, SVR, decision tree on all three datasets
 - Directory --> algo_comparison/regression_comparison_trees contains interactive python notebooks with the comparison of Decision tree, Bagging trees, random forest, gradient boosting (even xgboost)
-## Classification comparison
+## Classification comparison (in progress)
 Datasets: 
 - Directory --> algo_comparison/classification_comparison_basic contains the ipy notebooks with the comparison of logistic regression, svm, decision trees
 
