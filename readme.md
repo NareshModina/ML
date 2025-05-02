@@ -90,7 +90,8 @@ The table below indicates whether an algorithm can be used for classification or
 | Random Forest       | ✅            | ✅        |
 | Gradient Boosting   | ✅            | ✅        |
 
-[!NOTE] Sub directory basic contains python files for all the algorithms listed in the table for both regression and classification task
+[!NOTE] 
+Sub directory basic contains python files for all the algorithms listed in the table for both regression and classification task
 
 Enjoy experimenting with machine learning algorithms!
 
