@@ -3,8 +3,8 @@
 This repository contains Python demonstrations of various machine learning algorithms. Below are the dependencies required to run the code.
 
 ## Dependencies
-
-Ensure you have the following versions installed:
+> [!IMPORTANT]
+> Ensure you have the following versions installed:
 
 - Python: **3.12**
 - pip: **25.0.1**
