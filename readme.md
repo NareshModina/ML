@@ -91,7 +91,7 @@ The table below indicates whether an algorithm can be used for classification or
 | Gradient Boosting   | ✅            | ✅        |
 
 > [!NOTE] 
-> Sub directory [basic](https://github.com/NareshModina/ML/tree/main/basic) contains python files for all the algorithms listed in the table for both regression and classification task
+> Sub directory [basic](https://github.com/NareshModina/ML/tree/main/basic) contains python files for all the algorithms listed in the table for both regression and classification task.
 
 Enjoy experimenting with machine learning algorithms!
 
@@ -99,10 +99,10 @@ Enjoy experimenting with machine learning algorithms!
 
 ## Regression comparison
 Three datasets namely Fish dataset, insurance dataset, and nycyellowtaxiride dataset are used for the comparison
--  Sub directory --> [algo_comparison/regression_comparison_basic contains](https://github.com/NareshModina/ML/tree/main/algo_comparison/regression_comparison_basic) interactive python notebooks (ipynb) with the comparison of Linear regression, polynomial regression, SVR, decision tree on all three datasets
-- Sub directory --> [algo_comparison/regression_comparison_trees](https://github.com/NareshModina/ML/tree/main/algo_comparison/regression_comparison_trees) contains interactive python notebooks with the comparison of Decision tree, Bagging trees, random forest, gradient boosting (even xgboost)
+-  [algo_comparison/regression_comparison_basic](https://github.com/NareshModina/ML/tree/main/algo_comparison/regression_comparison_basic): contains interactive python notebooks (ipynb) with the comparison of Linear regression, polynomial regression, SVR, decision tree on all three datasets
+- [algo_comparison/regression_comparison_trees](https://github.com/NareshModina/ML/tree/main/algo_comparison/regression_comparison_trees): contains interactive python notebooks with the comparison of Decision tree, Bagging trees, random forest, gradient boosting (even xgboost)
 ## Classification comparison (in progress)
 Datasets: 
-- Sub directory --> [algo_comparison/classification_comparison_basic](https://github.com/NareshModina/ML/tree/main/algo_comparison/classification_comparison_basic) contains the ipy notebooks with the comparison of logistic regression, svm, decision trees
+- [algo_comparison/classification_comparison_basic](https://github.com/NareshModina/ML/tree/main/algo_comparison/classification_comparison_basic): contains the ipy notebooks with the comparison of logistic regression, svm, decision trees
 
-- Sub directory --> algo_comparison/classification_comparison_trees contains interactive python notebooks with the comparison of Decision tree, Bagging trees, random forest, gradient boosting (even xgboost)
+- algo_comparison/classification_comparison_trees: contains interactive python notebooks with the comparison of Decision tree, Bagging trees, random forest, gradient boosting (even xgboost)

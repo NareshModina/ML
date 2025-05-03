@@ -1,0 +1,4 @@
+Model,Training Accuracy,Test Accuracy,Training Time (s)
+CIFAR_Decision Tree,1.0,0.2664,112.0611
+CIFAR_Bagging,0.9936,0.3696,2508.8351
+CIFAR_Random Forest,0.9937,0.3596,12.9932
