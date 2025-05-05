@@ -6,9 +6,15 @@ from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.pipeline import make_pipeline
 from sklearn.metrics import mean_squared_error, r2_score
+import kagglehub
+from kagglehub import KaggleDatasetAdapter
 
 # Load the Fish dataset
-df = pd.read_csv('Fish.csv')
+file_path = "Fish.csv"
+df = kagglehub.load_dataset(KaggleDatasetAdapter.PANDAS,
+  "vipullrathod/fish-market",
+  file_path,)
+df.info()
 
 # Print all features
 print("Original features in the dataset:")
@@ -42,19 +48,19 @@ r2 = r2_score(y_test, y_pred)
 
 print("\nModel Performance:")
 print(f"Mean Squared Error: {mse:.2f}")
-print(f"R-squared Score: {r2:.2f}")
+print(f"R2 Score: {r2:.2f}")
 
-# Extract the LinearRegression model from the pipeline
-lr_model = polyreg.named_steps['linearregression']
-poly_features = polyreg.named_steps['polynomialfeatures']
+# # Extract the LinearRegression model from the pipeline
+# lr_model = polyreg.named_steps['linearregression']
+# poly_features = polyreg.named_steps['polynomialfeatures']
 
-# Get feature names after polynomial transformation
-feature_names = poly_features.get_feature_names_out(input_features=features_to_keep)
+# # Get feature names after polynomial transformation
+# feature_names = poly_features.get_feature_names_out(input_features=features_to_keep)
 
-# Print feature coefficients
-coefficients = pd.DataFrame({
-    'Feature': feature_names,
-    'Coefficient': lr_model.coef_
-})
-print("\nFeature Coefficients:")
-print(coefficients)
+# # Print feature coefficients
+# coefficients = pd.DataFrame({
+#     'Feature': feature_names,
+#     'Coefficient': lr_model.coef_
+# })
+# print("\nFeature Coefficients:")
+# print(coefficients)
